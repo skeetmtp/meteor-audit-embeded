@@ -1,0 +1,39 @@
+.meteor-overlay{
+    z-index: 2147483645;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: repeat-x;
+    background-size: auto 120%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
+
+.meteorite {
+    z-index: 2147483646;
+    position: absolute;
+    top: 400px;
+    left: -400px;
+    width: 400px;
+    height: 186px;
+}
+
+.growl {
+    z-index: 2147483647;
+    display: block;
+    height: 118px;
+    width: 430px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+}
+
+.growl:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
